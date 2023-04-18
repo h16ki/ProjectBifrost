@@ -1,0 +1,8 @@
+services:
+  julia:
+    image: julia:1.9-rc
+    volumes:
+      - ./src:/workspace
+    tty: true
+    container_name: julia
+    # platform: linux/x86_64
