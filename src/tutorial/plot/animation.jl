@@ -22,7 +22,8 @@ function potential(t, p, q)
   return 0.5 * q^2
 end
 
-function Euler(t)
+function Euler(t, p0, q0, h=1e-6)
+  t0, t1 = t
 end
 
 function RK4(t,)
