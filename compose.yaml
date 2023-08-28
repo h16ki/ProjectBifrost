@@ -1,6 +1,6 @@
 services:
   julia:
-    image: julia:1.9-rc
+    image: julia:1.9.2
     volumes:
       - ./src:/workspace
     tty: true
